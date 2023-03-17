@@ -40,11 +40,11 @@ The following Linux-based operating systems are supported:
 ### Install Mullvad VPN
     sudo rpm --import https://mullvad.net/media/mullvad-gpg-key.txt && wget --content-disposition https://mullvad.net/download/app/rpm/latest && sudo rpm -i $(ls | grep mullvad-vpn | grep .x86_64.rpm | head -n 1) && sudo mv $(ls | grep mullvad-vpn | grep .x86_64.rpm | head -n 1) Mullvad-vpn.rpm
 
-#" Debian
+## Debian
 
-# Remove existing Mullvad VPN installation
+### Remove existing Mullvad VPN installation
     sudo apt purge mullvad-vpn
-# Install Mullvad VPN
+### Install Mullvad VPN
     wget --content-disposition https://mullvad.net/download/app/deb/latest && sudo apt install -y $(ls | grep MullvadVPN | head -n 1) && sudo mv $(ls | grep MullvadVPN | head -n 1) Mullvad-vpn.deb
 
 
