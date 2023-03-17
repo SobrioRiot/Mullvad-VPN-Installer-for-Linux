@@ -1,6 +1,7 @@
 # Mullvad VPN Linux Command Lines
 
 This repository contains a collection of command lines for installing Mullvad VPN on various Linux-based operating systems. 
+
 These commands allow users to purge, download, and install Mullvad VPN regardless of its version.
 
 ## Supported Operating Systems
