@@ -1,6 +1,7 @@
 # Mullvad VPN Linux Command Lines
 
-This repository contains a collection of command lines for installing Mullvad VPN on various Linux-based operating systems. These commands allow users to purge, download, and install Mullvad VPN regardless of its version.
+This repository contains a collection of command lines for installing Mullvad VPN on various Linux-based operating systems. 
+These commands allow users to purge, download, and install Mullvad VPN regardless of its version.
 
 ## Supported Operating Systems
 
@@ -28,39 +29,28 @@ Package managers are used to install, update, and manage software packages on Li
 
 ### Arch Linux
 
-```sh
-sudo pacman -R mullvad-vpn && wget --content-disposition https://mullvad.net/download/app/arch/latest && sudo pacman -U $(ls | grep mullvad-vpn | grep .pkg.tar.zst | head -n 1) && sudo mv $(ls | grep mullvad-vpn | grep .pkg.tar.zst | head -n 1) Mullvad-vpn.pkg.tar.zst
+```sudo pacman -R mullvad-vpn && wget --content-disposition https://mullvad.net/download/app/arch/latest && sudo pacman -U $(ls | grep mullvad-vpn | grep .pkg.tar.zst | head -n 1) && sudo mv $(ls | grep mullvad-vpn | grep .pkg.tar.zst | head -n 1) Mullvad-vpn.pkg.tar.zst```
 
-### CentOS
+## CentOS
 
-```sh
-sudo yum remove -y mullvad-vpn && sudo rpm --import https://mullvad.net/media/mullvad-gpg-key.txt && sudo wget https://mullvad.net/media/app/latest/rpm/mullvad-vpn-client-*.x86_64.rpm && sudo rpm -i $(ls | grep mullvad-vpn-client | head -n 1) && sudo rm -f $(ls | grep mullvad-vpn-client | head -n 1)
-
+```sudo yum remove -y mullvad-vpn && sudo rpm --import https://mullvad.net/media/mullvad-gpg-key.txt && sudo wget https://mullvad.net/media/app/latest/rpm/mullvad-vpn-client-*.x86_64.rpm && sudo rpm -i $(ls | grep mullvad-vpn-client | head -n 1) && sudo rm -f $(ls | grep mullvad-vpn-client | head -n 1)
+```
 ### Debian
 
-```sh
-sudo apt purge mullvad-vpn && wget --content-disposition https://mullvad.net/download/app/deb/latest && sudo apt install -y $(ls | grep MullvadVPN | head -n 1) && sudo mv $(ls | grep MullvadVPN | head -n 1) Mullvad-vpn.deb
+```sudo apt purge mullvad-vpn && wget --content-disposition https://mullvad.net/download/app/deb/latest && sudo apt install -y $(ls | grep MullvadVPN | head -n 1) && sudo mv $(ls | grep MullvadVPN | head -n 1) Mullvad-vpn.deb```
 
+## Linux Mint
 
-### Linux Mint
+```sudo apt purge mullvad-vpn && wget --content-disposition https://mullvad.net/download/app/deb/latest && sudo apt install -y $(ls | grep MullvadVPN | head -n 1) && sudo mv $(ls | grep MullvadVPN | head -n 1) Mullvad-vpn.deb```
 
-```sh
-sudo apt purge mullvad-vpn && wget --content-disposition https://mullvad.net/download/app/deb/latest && sudo apt install -y $(ls | grep MullvadVPN | head -n 1) && sudo mv $(ls | grep MullvadVPN | head -n 1) Mullvad-vpn.deb
+## Manjaro
 
-
-### Manjaro
-
-```sh
-sudo pacman -R mullvad-vpn && wget --content-disposition https://mullvad.net/download/app/arch/latest && sudo pacman -U $(ls | grep mullvad-vpn | grep .pkg.tar.zst | head -n 1) && sudo mv $(ls | grep mullvad-vpn | grep .pkg.tar.zst | head -n 1) Mullvad-vpn.pkg.tar.zst 
-
+```sudo pacman -R mullvad-vpn && wget --content-disposition https://mullvad.net/download/app/arch/latest && sudo pacman -U $(ls | grep mullvad-vpn | grep .pkg.tar.zst | head -n 1) && sudo mv $(ls | grep mullvad-vpn | grep .pkg.tar.zst | head -n 1) Mullvad-vpn.pkg.tar.zst ```
 
 ### openSUSE and openSUSE Tumbleweed
 
-```sh
-sudo pacman -R mullvad-vpn && wget --content-disposition https://mullvad.net/download/app/arch/latest && sudo pacman -U $(ls | grep mullvad-vpn | grep .pkg.tar.zst | head -n 1) && sudo mv $(ls | grep mullvad-vpn | grep .pkg.tar.zst | head -n 1) Mullvad-vpn.pkg.tar.zst 
-
+```sudo pacman -R mullvad-vpn && wget --content-disposition https://mullvad.net/download/app/arch/latest && sudo pacman -U $(ls | grep mullvad-vpn | grep .pkg.tar.zst | head -n 1) && sudo mv $(ls | grep mullvad-vpn | grep .pkg.tar.zst | head -n 1) Mullvad-vpn.pkg.tar.zst ```
 
 ### Ubuntu
 
-```sh
-sudo apt purge mullvad-vpn && wget --content-disposition https://mullvad.net/download/app/deb/latest && sudo apt install -y
+```sudo apt purge mullvad-vpn && wget --content-disposition https://mullvad.net/download/app/deb/latest && sudo apt install -y```
