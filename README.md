@@ -3,6 +3,9 @@
 This repository contains a collection of command lines for installing Mullvad VPN on various Linux-based operating systems. 
 These commands allow users to purge, download, and install Mullvad VPN regardless of its version.
 
+
+Each section includes a command to remove any existing Mullvad VPN installation before proceeding with the installation command. If you are experiencing issues with your current Mullvad installation or simply want to reinstall it, you can run the remove command at the beginning of the respective section. This will ensure that any existing files and configurations associated with Mullvad are removed before the new installation begins.
+
 ## Supported Operating Systems
 
 The following Linux-based operating systems are supported:
@@ -11,8 +14,6 @@ The following Linux-based operating systems are supported:
 - Debian and derivatives, including Ubuntu, Linux Mint, and others
 - Fedora
 - openSUSE and derivatives, including openSUSE Leap and Tumbleweed
-
-Each section includes a command to remove any existing Mullvad VPN installation before proceeding with the installation command. If you are experiencing issues with your current Mullvad installation or simply want to reinstall it, you can run the remove command at the beginning of the respective section. This will ensure that any existing files and configurations associated with Mullvad are removed before the new installation begins.
 
 ## Command Lines
 
