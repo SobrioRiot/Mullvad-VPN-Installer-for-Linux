@@ -118,12 +118,13 @@ Mullvad VPN offers a tool to test for DNS leaks on your connection.
 
 To learn more about Mullvad VPN's DNS leak testing tool, please visit the [DNS Leak Test](https://mullvad.net/en/help/dns-leak-test/) page on the Mullvad VPN website.
 
-## Why Mullvad is the best
+## Why Mullvad i suggest mullvad?
 - Mullvad VPN is based in Sweden, which has strong privacy laws and is not a member of the 14 Eyes surveillance alliance.
 - Mullvad VPN does not log any user activity, which means that your internet activity is completely private.
 - Mullvad VPN supports a wide range of platforms, including Windows, macOS, Linux, iOS, Android, and more.
 - Mullvad VPN offers a 30-day money-back guarantee, so you can try it out risk-free.
-- Mullvad VPN is highly rated by cybersecurity analysts for its strong encryption and focus on privacy. It has received top marks from outlets like ProPrivacy and TheBestVPN.
+- Mullvad VPN is highly rated by cybersecurity analysts for its strong encryption and focus on privacy. It has received top marks from outlets like ProPrivacy and TheBestVPN
+- Dont it depends on paid reviews based on nonsense like streaming or unblocking of movies and series.
 
 Reviews:
 
