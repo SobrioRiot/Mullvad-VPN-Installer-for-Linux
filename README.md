@@ -68,6 +68,12 @@ Mullvad VPN is known for its high level of security. It uses AES-256 encryption 
 
 To learn more about Mullvad VPN's security features, please visit the [Security](https://mullvad.net/en/help/security/) page on the Mullvad VPN website.
 
+### Bridge mode
+
+Mullvad VPN supports Bridge mode, which allows you to connect to the VPN through an already established internet connection.
+
+To learn more about Mullvad VPN's Bridge mode, please visit the [Bridge mode](https://mullvad.net/en/help/bridge/) page on the Mullvad VPN website.
+
 ### Multihop
 
 Mullvad VPN supports Multihop connections, which allows you to route your traffic through multiple servers, increasing your privacy and security.
@@ -92,9 +98,10 @@ Mullvad VPN has its own DNS servers to ensure that your internet activity is not
 
 To learn more about Mullvad VPN's DNS feature, please visit the [DNS](https://mullvad.net/en/help/dns-leak-protection/) page on the Mullvad VPN website.
 
-### Account Types
+## Payment Options
 
-Mullvad VPN offers three types of accounts: Monthly, Three Months, and Six Months. The longer your subscription, the more you save.
+Mullvad VPN accepts a variety of payment options, including credit/debit card, PayPal, Swish (Sweden only), and bank wire transfer. However, they are known for their strong support of privacy and anonymity, and therefore also accept several cryptocurrencies such as Bitcoin, Bitcoin Cash, Litecoin, and Ethereum. In fact, they even offer a discount for users who pay with cryptocurrencies. To learn more about payment options, please visit the [Payment Options](https://mullvad.net/en/help/payment-options/) page on the Mullvad VPN website.
+
 
 ### Peer-to-Peer (P2P) Networking
 
@@ -128,7 +135,7 @@ To learn more about Mullvad VPN's DNS leak testing tool, please visit the [DNS L
 - Mullvad VPN offers a 30-day money-back guarantee, so you can try it out risk-free.
 - Mullvad VPN is highly rated by cybersecurity analysts for its strong encryption and focus on privacy. It has received top marks from outlets like ProPrivacy and TheBestVPN.
 
-Sources:
+Documentation:
 
 - ProPrivacy Review: https://proprivacy.com/vpn/review/mullvad
 - TheBestVPN Review: https://thebestvpn.com/reviews/mullvad/
