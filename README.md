@@ -135,7 +135,7 @@ To learn more about Mullvad VPN's DNS leak testing tool, please visit the [DNS L
 - Mullvad VPN offers a 30-day money-back guarantee, so you can try it out risk-free.
 - Mullvad VPN is highly rated by cybersecurity analysts for its strong encryption and focus on privacy. It has received top marks from outlets like ProPrivacy and TheBestVPN.
 
-Documentation:
+Reviews:
 
 - ProPrivacy Review: https://proprivacy.com/vpn/review/mullvad
 - TheBestVPN Review: https://thebestvpn.com/reviews/mullvad/
