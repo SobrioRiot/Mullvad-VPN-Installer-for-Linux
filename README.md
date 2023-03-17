@@ -12,8 +12,7 @@ The following Linux-based operating systems are supported:
 - Fedora
 - Linux Mint
 - Manjaro
-- openSUSE Leap
-- openSUSE Tumbleweed
+- openSUSE 
 - Ubuntu
 
 ## Package Managers
