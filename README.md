@@ -128,5 +128,6 @@ To learn more about Mullvad VPN's DNS leak testing tool, please visit the [DNS L
 Reviews:
 
 - ProPrivacy Review: https://proprivacy.com/vpn/review/mullvad
-- TheBestVPN Review: https://thebestvpn.com/reviews/mullvad/
+- TheBestVPN Review: https://thebestvpn.com/reviews/mullvad-vpn/
+- SafetyDetectives Revies: ttps://www.safetydetectives.com/best-vpns/mullvad/
 
