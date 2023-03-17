@@ -98,16 +98,15 @@ Mullvad VPN has its own DNS servers to ensure that your internet activity is not
 
 To learn more about Mullvad VPN's DNS feature, please visit the [DNS](https://mullvad.net/en/help/dns-leak-protection/) page on the Mullvad VPN website.
 
-## Payment Options
-
-Mullvad VPN accepts a variety of payment options, including credit/debit card, PayPal, Swish (Sweden only), and bank wire transfer. However, they are known for their strong support of privacy and anonymity, and therefore also accept several cryptocurrencies such as Bitcoin, Bitcoin Cash, Litecoin, and Ethereum. In fact, they even offer a discount for users who pay with cryptocurrencies. To learn more about payment options, please visit the [Payment Options](https://mullvad.net/en/help/payment-options/) page on the Mullvad VPN website.
-
-
 ### Peer-to-Peer (P2P) Networking
 
 Mullvad VPN allows P2P networking on all of its servers, making it a great choice for torrenting and other P2P activities.
 
-## Configuration
+## Payment Options
+
+Mullvad VPN accepts a variety of payment options, including credit/debit card, PayPal, Swish (Sweden only), and bank wire transfer. However, they are known for their strong support of privacy and anonymity, and therefore also accept several cryptocurrencies such as Bitcoin, Bitcoin Cash, Litecoin, and Ethereum. In fact, they even offer a discount for users who pay with cryptocurrencies. To learn more about payment options, please visit the [Payment Options](https://mullvad.net/en/help/payment-options/) page on the Mullvad VPN website.
+
+## Configuration options
 
 Once you have installed Mullvad VPN, you can configure it to suit your needs. Mullvad VPN offers a variety of settings, including:
 
