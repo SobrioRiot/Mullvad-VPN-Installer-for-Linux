@@ -17,30 +17,30 @@ The following Linux-based operating systems are supported:
 
 ## Command Lines
 
-# Remove existing Mullvad VPN installation
+### Remove existing Mullvad VPN installation
 
     sudo pacman -R mullvad-vpn
 
-### Arch Linux and derivatives, including Manjaro
+## Arch Linux and derivatives, including Manjaro
 
-# Remove existing Mullvad VPN installation
+### Remove existing Mullvad VPN installation
 
     sudo pacman -R mullvad-vpn
 
-# Installation command:
+### Installation command:
 
     sudo pacman -Syy && sudo pacman -S --noconfirm wget && wget --content-disposition https://mullvad.net/download/app/arch/latest && sudo pacman -U $(ls | grep mullvad-vpn | grep .pkg.tar.zst | head -n 1) && sudo mv $(ls | grep mullvad-vpn | grep .pkg.tar.zst | head -n 1) Mullvad-vpn.pkg.tar.zst
 
 
 ## CentOS
 
-# Remove existing Mullvad VPN installation
+### Remove existing Mullvad VPN installation
     sudo yum remove -y mullvad-vpn
 
-# Install Mullvad VPN
+### Install Mullvad VPN
     sudo rpm --import https://mullvad.net/media/mullvad-gpg-key.txt && wget --content-disposition https://mullvad.net/download/app/rpm/latest && sudo rpm -i $(ls | grep mullvad-vpn | grep .x86_64.rpm | head -n 1) && sudo mv $(ls | grep mullvad-vpn | grep .x86_64.rpm | head -n 1) Mullvad-vpn.rpm
 
-### Debian
+#" Debian
 
 # Remove existing Mullvad VPN installation
     sudo apt purge mullvad-vpn
@@ -50,39 +50,39 @@ The following Linux-based operating systems are supported:
 
 ## Fedora
 
-# Remove existing Mullvad VPN installation
+### Remove existing Mullvad VPN installation
     sudo yum remove -y mullvad-vpn
 
-# Install Mullvad VPN
+### Install Mullvad VPN
     sudo rpm --import https://mullvad.net/media/mullvad-gpg-key.txt && wget --content-disposition https://mullvad.net/download/app/rpm/latest && sudo dnf install -y $(ls | grep mullvad-vpn | grep .x86_64.rpm | head -n 1) && sudo mv $(ls | grep mullvad-vpn | grep .x86_64.rpm | head -n 1) Mullvad-vpn.rpm
 
 
 ## Manjaro
 
-# Remove existing Mullvad VPN installation
+### Remove existing Mullvad VPN installation
     sudo dnf remove -y mullvad-vpn
 
-# Install Mullvad VPN
+### Install Mullvad VPN
 
     sudo dnf install -y wget && wget --content-disposition https://mullvad.net/download/app/rpm/latest && sudo dnf localinstall -y $(ls | grep mullvad-vpn | grep .x86_64.rpm | head -n 1) && sudo mv $(ls | grep mullvad-vpn | grep .x86_64.rpm | head -n 1) Mullvad-vpn.x86_64.rpm
 
  
-### openSUSE 
+## openSUSE 
 
-# Remove existing Mullvad VPN installation
+### Remove existing Mullvad VPN installation
 
     sudo zypper remove -y mullvad-vpn
 
-# Install Mullvad VPN
+### Install Mullvad VPN
 
     sudo zypper install -y wget && wget --content-disposition https://mullvad.net/download/app/rpm/latest && sudo zypper install -y $(ls | grep mullvad-vpn | grep .x86_64.rpm | head -n 1) && sudo mv $(ls | grep mullvad-vpn | grep .x86_64.rpm | head -n 1) Mullvad-vpn.x86_64.rpm
 
 
-# Mullvad VPN
+## Mullvad VPN
 
 Mullvad VPN is a privacy-focused VPN service that allows you to browse the internet securely and anonymously. This repository includes information on the features of Mullvad VPN, as well as commands for installing and using the software on Debian and Arch Linux.
 
-# Mullvad VPN Features
+## Mullvad VPN Features
 
 Mullvad VPN is a popular choice for those seeking a secure and private internet connection. Some of the notable features of Mullvad VPN are:
 
