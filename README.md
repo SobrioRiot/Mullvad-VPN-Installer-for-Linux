@@ -1,0 +1,2 @@
+# Mullvad-VPN-Automated-Installation-Scripts-for-Linux-based-Operating-Systems
+A collection of automated command lines for installing and updating Mullvad VPN on various Linux-based operating systems. These scripts automatically purge any existing installation, download the latest version of Mullvad, and install it without requiring user input. Perfect for easy, hassle-free installation and updates.
