@@ -129,5 +129,5 @@ Reviews:
 
 - ProPrivacy Review: https://proprivacy.com/vpn/review/mullvad
 - TheBestVPN Review: https://thebestvpn.com/reviews/mullvad-vpn/
-- SafetyDetectives Revies: https://www.safetydetectives.com/best-vpns/mullvad/
+- SafetyDetectives Review: https://www.safetydetectives.com/best-vpns/mullvad/
 
